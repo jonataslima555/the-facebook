@@ -19,13 +19,13 @@ def validar_email(email):
         return False
 
 
-try:
-    email_para_validar = "seu_email@exemplo.com"
-    resultado = validar_email(email_para_validar)
-
-    if resultado:
-        print("O email é válido.")
-    else:
-        print("O email é inválido.")
-except AttributeError as e:
-    print(e)
+#try:
+#    email_para_validar = "seu_email@exemplo.com"
+#    resultado = validar_email(email_para_validar)
+#
+#    if resultado:
+#        print("O email é válido.")
+#    else:
+#        print("O email é inválido.")
+#except AttributeError as e:
+#    print(e)

@@ -1,4 +1,3 @@
-# config.py
 from database import db
 from models import *
 from dotenv import load_dotenv

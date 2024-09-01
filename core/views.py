@@ -1,3 +1,3 @@
-from apis import validar_email
-from models import *
+from func import create_user
 
+create_user()
